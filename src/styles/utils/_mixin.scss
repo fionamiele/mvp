@@ -1,0 +1,24 @@
+@mixin five{
+ @media (min-width: #{$screen-five}){
+   @content;
+ }
+}
+
+@mixin six{
+ @media (min-width: #{$screen-six}){
+   @content;
+ }
+}
+
+
+@mixin mil{
+ @media (min-width: #{$screen-mil}){
+   @content;
+ }
+}
+
+@mixin dz{
+ @media (min-width: #{$screen-dz}){
+   @content;
+ }
+}
